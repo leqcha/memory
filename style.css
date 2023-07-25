@@ -3,11 +3,26 @@
 }
 
 .btn-primary {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
 
 img {
-    width: 140px;
-    height: 140px;
+    width: 120px;
+    height: 120px;
 }
+
+/* Exemple d'animation sympa pour le message "Bravo Lucien" */
+.message-bravo {
+    font-size: 26px;
+    color: green;
+    text-align: center;
+    
+}
+.animate__animated {
+    animation-duration: 1s;
+}
+.animate__bounceInDown {
+    animation-name: bounceInDown;
+}
+/* Ajoutez d'autres classes d'animation ici si nécessaire */
